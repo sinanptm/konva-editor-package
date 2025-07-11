@@ -1,0 +1,19 @@
+# Ignore build artifacts and temporary files
+node_modules/
+.DS_Store
+pnpm-lock.yaml
+
+.rollup.cache/ 
+
+# Ignore source files (since only dist is needed)
+components/
+hooks/
+lib/
+types/
+index.ts
+tsconfig.json
+rollup.config.js
+
+# Ignore any other unnecessary files
+*.log
+dist/*.map  # Optionally exclude source maps if you don't want them published
