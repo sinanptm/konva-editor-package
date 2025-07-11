@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { StickerControlsProps } from "../types";
-import Image from "next/image";
 
 const StickerControls = ({ availableStickers, addSticker, addAvailableSticker }: StickerControlsProps) => {
     const fileInputRef = useRef<HTMLInputElement>(null);
@@ -34,9 +33,7 @@ const StickerControls = ({ availableStickers, addSticker, addAvailableSticker }:
                                 variant="outline"
                                 onClick={() => handleStickerSelect(sticker.src)}
                             >
-                                <Image
-                                    height={0}
-                                    width={0}
+                                <img
                                     src={sticker.src}
                                     alt={sticker.name}
                                     className="w-7 h-7"

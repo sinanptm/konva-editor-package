@@ -11,6 +11,12 @@ import BackgroundImageControls from "./BackgroundImageControls";
 import useUndoRedoKeyboardShortcuts from "../hooks/keyboardShortcuts/useUndoRedo";
 import TextControls from "./text-controls/TextControls";
 import useDelete from "../hooks/keyboardShortcuts/useDelete";
+/**
+ * ImageEditor component provides a canvas-based editor for composing images,
+ * adding and manipulating text and sticker elements, and exporting the final result.
+ * It integrates controls for background image management, undo/redo, text and sticker editing,
+ * and supports keyboard shortcuts for efficient editing.
+ */
 
 const ImageEditor = () => {
     const {

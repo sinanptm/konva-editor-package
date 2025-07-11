@@ -72,7 +72,7 @@ export default [
         output: [{file: 'dist/index.d.ts', format: 'esm'}],
         plugins: [
             dts({
-                tsconfig: './tsconfig.json', // Ensure dts uses tsconfig
+                tsconfig: './tsconfig.json',
             }),
         ],
     },

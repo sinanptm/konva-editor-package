@@ -9,8 +9,8 @@ export const useEditorStore = create<StoreState>()(
             (set, get) => ({
                 stickers: [],
                 availableStickers: [
-                    { name: 'Sticker ', src: '/sticker.svg' },
-                    { name: 'Sticker s', src: '/s.svg' },
+                    { name: 'Sticker 7', src: '/7.svg' },
+                    { name: 'Sticker 8', src: '/8.svg' },
                     { name: 'Sticker 1', src: '/1.svg' },
                     { name: 'Sticker 2', src: '/2.svg' },
                     { name: 'Sticker 3', src: '/3.svg' },
