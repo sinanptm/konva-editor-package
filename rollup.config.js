@@ -4,7 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import terser from '@rollup/plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import dts from 'rollup-plugin-dts';
-import postcss from '@tailwindcss/postcss';
+import postcss from 'rollup-plugin-postcss';
 import strip from '@rollup/plugin-strip';
 
 export default [
@@ -75,5 +75,6 @@ export default [
                 tsconfig: './tsconfig.json',
             }),
         ],
+        external: [/\.css$/],
     },
 ];

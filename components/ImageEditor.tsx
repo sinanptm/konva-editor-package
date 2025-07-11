@@ -11,6 +11,7 @@ import BackgroundImageControls from "./BackgroundImageControls";
 import useUndoRedoKeyboardShortcuts from "../hooks/keyboardShortcuts/useUndoRedo";
 import TextControls from "./text-controls/TextControls";
 import useDelete from "../hooks/keyboardShortcuts/useDelete";
+import "../styles/globals.css";
 /**
  * ImageEditor component provides a canvas-based editor for composing images,
  * adding and manipulating text and sticker elements, and exporting the final result.
