@@ -1,6 +1,6 @@
 {
   "name": "@sinanptm/konva-editor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Konva Image Editor",
   "type": "module",
   "main": "dist/index.js",
