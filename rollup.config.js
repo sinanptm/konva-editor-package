@@ -65,6 +65,7 @@ export default [
             '@radix-ui/react-slot',
             '@radix-ui/react-switch',
             '@radix-ui/react-tabs',
+            'canvas'
         ],
     },
     {
