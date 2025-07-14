@@ -76,6 +76,6 @@ export default [
                 tsconfig: './tsconfig.json',
             }),
         ],
-        external: [/\.css$/],
+        // external: [/\.css$/],
     },
 ];
